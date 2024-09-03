@@ -124,7 +124,35 @@
 
 
 
+/* Start Global Variable */
+:root {
+  --main-color: #19c8fa;
+  --secandery-color: #a2a2a2;
+  --transparent-color: rgb(15 116 143 / 80%);
+  --pragraph-color: #777;
+  --section-padding: 100px;
+}
+/* End Global Variable */
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+}
 
+/* End Global Rules */
 
 
 

@@ -20,9 +20,9 @@ import { ContactComponent } from '../contact/contact.component';
 export class HomeComponent implements OnInit, OnDestroy {
   index: number = 0;
   images: string[] = [
-    '../assets/image3.jpg',
-    '../assets/image1.jpg',
-    '../assets/image2.jpg',
+    'assets/image3.jpg',
+    'assets/image1.jpg',
+    'assets/image2.jpg',
   ];
   descriptionIndex: number = 0;
 
